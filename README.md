@@ -1,1 +1,1 @@
-Repository For Quantory DevOps School, Python course
+Ilya Savin's Repository For Quantory DevOps School, Python course
