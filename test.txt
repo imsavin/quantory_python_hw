@@ -1,1 +1,2 @@
 This is test message to GIT homework
+We will play with hash
