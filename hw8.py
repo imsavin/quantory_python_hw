@@ -1,4 +1,5 @@
-#### Savin Ilya Python Homework №8
+#!/usr/bin/python3
+# Savin Ilya Python Homework N8
 
 def recursive_func():
     input_str = input("Enter number: ")
@@ -13,5 +14,6 @@ def recursive_func():
         except ValueError:
             print("Can't convert entered text to number")
         recursive_func()
-       
+
+
 recursive_func()

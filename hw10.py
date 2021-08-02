@@ -1,4 +1,5 @@
-#### Savin Ilya Python Homework №10
+#!/usr/bin/python3
+# Savin Ilya Python Homework N10
 
 input_string = input("Enter number: ")
 kollatz_nmb = int(input_string)

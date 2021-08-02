@@ -1,4 +1,6 @@
-#### Savin Ilya Python Homework №5
+#!/usr/bin/python3
+# Savin Ilya Python Homework N5
+
 
 input_string = input("Enter string of numbers: ")
 numbers_list = []
@@ -8,7 +10,7 @@ for i in split_string:
 
 
 numbers_list.sort()
-numbers_list = list(set(numbers_list)) #delete duplicates
+numbers_list = list(set(numbers_list))  # delete duplicates
 
 counter = 0
 flag = 0
@@ -21,4 +23,3 @@ for i in numbers_list:
 
 if flag == 0:
     print(counter+1)
-
