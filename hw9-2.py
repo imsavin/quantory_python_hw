@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# -*- coding: utf-8 -*-
 # Self powers
 # Problem 48
 # The series, 1**1 + 2**2 + 3**3 + ... + 10**10 = 10405071317.
