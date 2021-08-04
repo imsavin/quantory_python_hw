@@ -16,4 +16,4 @@
 # -------
 
 input_line = input("Enter string: ")
-print(set(input_line.split())
+print(set(input_line.split()))

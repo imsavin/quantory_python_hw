@@ -14,7 +14,7 @@
 
 from collections import Counter
 
-while true:
+while True:
     input_line = input("Enter string: ")
     input_list = input_line.lower().split()
     dict_counter = Counter(input_list)
