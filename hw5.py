@@ -19,9 +19,8 @@ split_string = input_string.split()
 for i in split_string:
     numbers_list.append(int(i))
 
-
+numbers_list = list(set(numbers_list))  
 numbers_list.sort()
-numbers_list = list(set(numbers_list))  # delete duplicates
 
 counter = 0
 flag = 0

@@ -16,19 +16,26 @@
 # -------------
 
 
-def recursive_func():
+def recursive_func(input_str, order, number):
+    try:
+        number = number + int(input_str[-1:])*(10**order)
+        order = order + 1
+        if len(input_str) == 1:
+            return number
+        else:
+            return recursive_func(input_str[:len(input_str)-1],order,number)
+    except ValueError:
+        print("Cant convert to stirng")
+
+        
+
+while True:
     input_str = input("Enter number: ")
     if input_str == "cancel":
         print("Bye!")
+        break
+    number = recursive_func(input_str,0,0)
+    if number % 2 == 0:
+        print(int(number / 2))
     else:
-        try:
-            if (int(input_str) % 2) == 0:
-                print (int(int(input_str)/2))
-            else:
-                print(int(input_str)*3 + 1)
-        except ValueError:
-            print("Can't convert entered text to number")
-        recursive_func()
-
-
-recursive_func()
+        print(number*3 - 1)
